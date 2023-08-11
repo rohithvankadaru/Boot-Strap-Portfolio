@@ -7,12 +7,13 @@
   <title>Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" href="#">Rohith's Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,7 +24,7 @@
             <a class="nav-link" aria-current="page" href="#About-Section">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+            <a class="nav-link" aria-current="page" href="#skill-section">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Contact-Section">Contact</a>
@@ -35,13 +36,13 @@
 
   <header class="text-center bg-primary p-5 text-light">
     <h1>Welcome to My Portfolio</h1>
-    <p>Iam a Full Stack web Development Enthuasist</p>
+    <p>A Software Development Enthuasist</p>
   </header>
 
   <section class="container" id="About-Section">
     <h1 class="text-center mt-5">About Me</h1>
     <div class="d-flex align-items-center flex-md-row flex-sm-column">
-      <img class="rounded" width="300px" src="./IMG20220609093710.jpg" alt="My-Img" />
+      <img class="rounded" width="300px" src=".//logos/IMG20220609093710.jpg" alt="My-Img" />
       <p class="ps-5 pt-md-0 pt-sm-3">
         Lorem ipsum dolor sit Lorem ipsum, Lorem, ipsum dolor sit amet Lorem
         ipsum dolor sit amet, consectetur adipisicing elit. Provident,
@@ -63,7 +64,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
           <div class="card shadow-sm">
-            <img src="./e-commerce-photo.png" class="card-img-top" alt="e-commerce-image">
+            <img src="./logos/e-commerce-photo.png" class="card-img-top" alt="e-commerce-image">
             <div class="card-body">
               <h5 class="card-title">E-Commerce</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio impedit vitae et
@@ -75,7 +76,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
           <div class="card shadow-sm">
-            <img src="./Library-photo.jpg" class="card-img-top" alt="e-commerce-image">
+            <img src="./logos/Library-photo.jpg" class="card-img-top" alt="e-commerce-image">
             <div class="card-body">
               <h5 class="card-title">Library Management</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio impedit vitae et
@@ -86,7 +87,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
           <div class="card shadow-sm">
-            <img src="./e-commerce-photo.png" class="card-img-top" alt="e-commerce-image">
+            <img src="./logos/e-commerce-photo.png" class="card-img-top" alt="e-commerce-image">
             <div class="card-body">
               <h5 class="card-title">E-Commerce</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio impedit vitae et
@@ -96,6 +97,48 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="skill-section">
+    <h2 id="skill-container-head" class="text-center py-4">Skills</h2>
+    <div id="skill-container-body" class="d-flex align-items-center justify-content-center flex-wrap">
+    <div>
+      <img id="logo-DSA" src="logos/DSA_Logo.png" alt="">
+      <h6>Data Structrues and Algorithms</h6>
+    </div>
+    <div>
+      <img id="logo-java" src="logos/java.png" alt="">
+      <h6>Java</h6>
+    </div>
+    <div>
+      <img id="logo-spring" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="">
+      <h6>Spring Boot</h6>
+    </div>
+    <div>
+      <img id="logo-spring" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="">
+      <h6>Spring Cloud</h6>
+    </div>
+    <div>
+      <img id="logo-microservices" src="./logos/icons8-centralized-network-100.png" alt="">
+      <h6>Microservices</h6>
+    </div>
+    <div>
+      <img id="logo-html" src="./logos/icons8-html-logo-480.png" alt="">
+      <h6>HTML</h6>
+    </div>
+    <div>
+      <img id="logo-css" src="./logos/icons8-css-logo-480.png" alt="">
+      <h6>CSS</h6>
+    </div>
+    <div>
+      <img id="logo-bootstrap" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap">
+      <h6>Bootstrap</h6>
+    </div>
+    <div>
+      <img id="logo-js" src="./logos/java-script.png" alt="">
+      <h6>JavaScript</h6>
+    </div>
     </div>
   </section>
 
