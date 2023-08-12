@@ -15,7 +15,9 @@
 </head>
 
 <body>
-  <nav class="portfolio-navbar navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+  <nav class="portfolio-navbar navbar navbar-expand-lg navbar-dark bg-dark position-sticky top-0" style="z-index: 1;">
     <div class="container">
       <a class="navbar-brand" href="#">Rohith's Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,6 +40,7 @@
     </div>
   </nav>
 
+
   <header class="text-center bg-primary p-5 text-light">
     <h1>Welcome to My Portfolio</h1>
     <p>I showcase my projects and skills here</p>
@@ -56,23 +59,28 @@
 
   <section id="About-Section" class="container d-flex align-items-center justify-content-center flex-column">
     <h1 id="About-head" class="py-5 mb-4 mt-3">About Me</h1>
-      <div id="About-body" class="d-flex">
+    <div id="About-body" class="d-flex">
       <div id="content">
         <h1>Frontend Developer</h1>
-        <p class="fs-5 text-center" style="font-weight: 400;">Highly motivated, self-driven hands on experience in Java, HTML, CSS, JavaScript, and Bootstrap. I have
-          knowledge of popular frameworks like ReactJS, Redux, Context-API and knowledge of API Fetch and MySQL</p>
+        <p class="fs-5 text-center" style="font-weight: 400;">I specialize in crafting engaging and intuitive user
+          experiences through my proficiency in HTML, CSS, and JavaScript. With an eye for design and a keen
+          understanding of user behavior, I create visually appealing and responsive web applications. I'm also skilled
+          in utilizing frameworks like Bootstrap to ensure seamless and consistent layouts across different devices.</p>
       </div>
       <div id="content">
         <h1>Backend Developer</h1>
-        <p class="fs-5  text-center" style="font-weight: 400;">Highly motivated, self-driven hands on experience in Java, HTML, CSS, JavaScript, and Bootstrap. I have
-          knowledge of popular frameworks like ReactJS, Redux, Context-API and knowledge of API Fetch and MySQL</p>
+        <p class="fs-5  text-center" style="font-weight: 400;">My expertise lies in building robust and efficient
+          server-side applications. I'm well-versed in utilizing Java, Spring Boot, and Hibernate/JPA to develop
+          powerful back end systems. Additionally, I have experience in creating microservices and implementing Spring
+          Cloud solutions, ensuring scalability and reliability in distributed architectures. My strong grasp of Data
+          Structures and Algorithms further enhances the performance of the applications I develop.</p>
       </div>
     </div>
   </section>
   </section>
 
   <section id="skill-section">
-    <h1 id="skill-container-head" class="text-center py-4">Skills</h1>
+    <h1 id="skill-container-head" class="text-center pt-4 pb-3">Skills</h1>
     <div id="skill-container-body" class="d-flex align-items-center justify-content-center flex-wrap">
       <div>
         <img id="logo-DSA" src="logos/DSA_Logo.png" alt="">
@@ -166,8 +174,13 @@
     <div class="row">
       <div class="col-5 mx-auto">
         <form class="d-flex flex-column justify-content-center">
-          <label class="form-label mt-3" for="First Name">First Name</label>
-          <input type="text" class="form-control" placeholder="Rohith" id="First Name">
+
+          <label class="form-label mt-3" for="Name">Name</label>
+          <input type="text" class="form-control" placeholder="Rohith" id="Name">
+
+          <label class="form-label mt-3" for="Phone Number">Phone Number</label>
+          <input type="text" class="form-control" placeholder="0000000000" id="Phone Number">
+          <p class="form-text mb-0">Don't worrey, we don't share your data with any one</p>
 
           <label class="form-label mt-3" for="E-mail">E-mail</label>
           <input type="email" class="form-control" placeholder="rohith@gmail.com" id="E-mail">
