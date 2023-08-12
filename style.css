@@ -85,7 +85,8 @@
         flex-wrap: wrap;
     }
     #About-body #content{
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
