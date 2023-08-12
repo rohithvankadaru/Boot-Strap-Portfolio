@@ -80,6 +80,15 @@
     transform: scale(1.02);
 }
 
+@media screen and (max-width: 995px){
+    #About-body{
+        flex-wrap: wrap;
+    }
+    #About-body #content{
+        margin-top: 20px;
+    }
+}
+
 
 @keyframes changeText {
     0%{
