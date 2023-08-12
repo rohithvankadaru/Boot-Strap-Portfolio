@@ -1,8 +1,36 @@
+#Developer-text{
+    font-size: 75px;
+    font-weight: 800;
+    color: rgb(57, 52, 52);
+    animation: changeText 3s ease-in-out 0s infinite;
+}
+
+/* ********************************************************* */
+
+#About-Section #About-body>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #c1c2c4, -5px -5px 8px #c1c2c4;
+}
+#About-Section #About-body>div>p{
+    margin: 30px;
+}
+
+#About-Section #About-body>div:hover{
+    transform: scale(1.02);
+}
+
+/* ********************************************************* */
+
 #skill-section{
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-#skill-container-body>div{
+#skill-section #skill-container-body>div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +52,12 @@
     padding-bottom: 15px;
 }
 
+#skill-section #skill-container-body>div:hover{
+    transform: scale(0.98);
+}
+
+/* ********************************************************* */
+
 #project-section .card-body{
     display: flex;
     flex-direction: column;
@@ -35,4 +69,42 @@
 #project-section img{
     width: 28w;
     height: 28vh;
+}
+
+#project-section .card{
+    box-shadow: 5px 5px 10px #c1c2c4, -5px -5px 10px #c1c2c4;
+}
+
+#project-section .card:hover{
+    transform: scale(0.98);
+}
+
+
+@keyframes changeText {
+    0%{
+        opacity: 0%;
+        transform: translateY(-40px);
+    }
+    30%{
+        opacity: 80%;
+        transform: translateY(0px);
+    }
+    35%{
+        transform: translateY(-3px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    50%{
+        opacity: 100%;
+    }
+    80%{
+        opacity: 80%;
+    }
+    95%{
+        opacity: 70%;
+    }
+    100%{
+        opacity: 0%;
+    }
 }
