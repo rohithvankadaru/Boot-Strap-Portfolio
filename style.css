@@ -7,20 +7,20 @@
 
 /* ********************************************************* */
 
-#About-Section #About-body>div{
+#About-Section #About-body>#content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-inline: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 8px #c1c2c4, -5px -5px 8px #c1c2c4;
+    border: 2px solid;
 }
-#About-Section #About-body>div>p{
+#About-Section #About-body>#content>p{
     margin: 30px;
 }
 
-#About-Section #About-body>div:hover{
+#About-Section #About-body>#content:hover{
     transform: scale(1.02);
 }
 
