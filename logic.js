@@ -56,3 +56,14 @@ backendBtn.addEventListener("click", ()=>{
         element.style.display = "flex";
     });
 });
+
+
+let submit = document.getElementById("submit");
+let Name = document.getElementById("Name");
+let phNumber = document.getElementById("Phone Number");
+let EMail = document.getElementById("E-mail");
+let message = document.getElementById("message");
+
+
+submit.addEventListener("click", () =>{
+})

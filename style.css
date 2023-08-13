@@ -5,10 +5,14 @@
     animation: changeText 3s ease-in-out 0s infinite;
 }
 
+#introLine{
+    float: left;
+}
+
 /* ********************************************************* */
 
 
-#About-Section #About-body>#content{
+#About-Section #About-body>.content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,11 +21,11 @@
     border-radius: 10px;
     border: 2px solid;
 }
-#About-Section #About-body>#content>p{
+#About-Section #About-body>.content>p{
     margin: 30px;
 }
 
-#About-Section #About-body>#content:hover{
+#About-Section #About-body>.content:hover{
     transform: scale(1.02);
 }
 
@@ -84,15 +88,14 @@
     #About-body{
         flex-wrap: wrap;
     }
-    #About-body #content{
+    #About-body .content{
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
 
-#introLine{
-    float: left;
-}
+
+
 @media screen and (max-width: 1200px) {
     #introLine{
         float: none;
