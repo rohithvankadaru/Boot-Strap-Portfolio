@@ -90,6 +90,15 @@
     }
 }
 
+#introLine{
+    float: left;
+}
+@media screen and (max-width: 1200px) {
+    #introLine{
+        float: none;
+    }
+}
+
 
 @keyframes changeText {
     0%{
