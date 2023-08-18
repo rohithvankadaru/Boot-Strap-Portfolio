@@ -1,8 +1,7 @@
 #Developer-text{
     font-size: 75px;
-    font-weight: 800;
-    color: rgb(57, 52, 52);
-    animation: changeText 3s ease-in-out 0s infinite;
+    font-weight: 600;
+    color: #ff4c29;
 }
 
 #introLine{
@@ -99,35 +98,5 @@
 @media screen and (max-width: 1200px) {
     #introLine{
         float: none;
-    }
-}
-
-
-@keyframes changeText {
-    0%{
-        opacity: 0%;
-        transform: translateY(-40px);
-    }
-    30%{
-        opacity: 80%;
-        transform: translateY(0px);
-    }
-    35%{
-        transform: translateY(-3px);
-    }
-    40%{
-        transform: translateY(0px);
-    }
-    50%{
-        opacity: 100%;
-    }
-    80%{
-        opacity: 80%;
-    }
-    95%{
-        opacity: 70%;
-    }
-    100%{
-        opacity: 0%;
     }
 }

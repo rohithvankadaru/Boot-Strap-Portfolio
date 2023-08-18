@@ -1,16 +1,7 @@
-let developerText = document.querySelector("#Developer-text");
 
-setInterval(changeText, 3000);
 
-function changeText() {
-    if(developerText.textContent == "Frontend Developer"){
-        developerText.innerHTML = "Backend Developer";
-    }
-    else{
-        developerText.innerHTML = "Frontend Developer"
-    }
-}
 
+////////////////////////////////////////////////////////////////////////////////////
 
 let allBtn = document.querySelector("#All");
 let frontendBtn = document.querySelector("#Frontend");
@@ -70,3 +61,7 @@ submit.addEventListener("click", sendMail);
 function sendMail() {
     
 }
+
+
+let Name1;
+console.log(Name1);
