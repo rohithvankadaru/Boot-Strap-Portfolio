@@ -23,10 +23,6 @@
     margin: 30px;
 }
 
-#About-Section #About-body>.content:hover{
-    transform: scale(1.02);
-}
-
 /* ********************************************************* */
 
 #skill-section{
@@ -39,14 +35,15 @@
     align-items: center;
     justify-content: center;
 
-    width: 230px;
+    width: 170px;
     border-radius: 5px;
     margin: 15px;
     box-shadow: 5px 5px 10px #c1c2c4, -5px -5px 10px #c1c2c4;
+    transition: all ease 0.3s;
 }
 
 #skill-container-body>div>img{
-    width: 200px;
+    width: 150px;
     padding: 10px;
 }
 
@@ -56,7 +53,7 @@
 }
 
 #skill-section #skill-container-body>div:hover{
-    transform: scale(0.98);
+    transform: scale(1.08);
 }
 
 /* ********************************************************* */
@@ -76,10 +73,11 @@
 
 #project-section .card{
     box-shadow: 5px 5px 10px #c1c2c4, -5px -5px 10px #c1c2c4;
+    transition: all ease 0.3s;
 }
 
 #project-section .card:hover{
-    transform: scale(1.02);
+    transform: scale(1.08);
 }
 
 @media screen and (max-width: 995px){
