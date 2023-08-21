@@ -42,7 +42,7 @@
     transition: all ease 0.3s;
 }
 
-#skill-container-body>div>img{
+#skill-section #skill-container-body>div>img{
     width: 150px;
     padding: 10px;
 }
@@ -80,6 +80,13 @@
     transform: scale(1.08);
 }
 
+
+@media screen and (max-width: 1200px) {
+    #introLine{
+        float: none;
+    }
+}
+
 @media screen and (max-width: 995px){
     #About-body{
         flex-wrap: wrap;
@@ -90,10 +97,14 @@
     }
 }
 
-
-
-@media screen and (max-width: 1200px) {
-    #introLine{
-        float: none;
+@media screen and (max-width: 376px) {
+    #skill-section #skill-container-body>div{
+        width: 90px;
+    }
+    #skill-section #skill-container-body>div>img{
+        width: 88px;
+    }
+    #skill-container-body>div>h5{
+        font-size: 13px;
     }
 }
