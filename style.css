@@ -97,12 +97,15 @@
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 500px) {
+    #skill-section #skill-container-body{
+        width: 100vw;
+    }
     #skill-section #skill-container-body>div{
-        width: 90px;
+        width: 26vw;
     }
     #skill-section #skill-container-body>div>img{
-        width: 88px;
+        width: 95%;
     }
     #skill-container-body>div>h5{
         font-size: 13px;
