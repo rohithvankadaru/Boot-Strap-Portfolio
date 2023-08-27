@@ -58,8 +58,12 @@ let message = document.getElementById("message");
 
 submit.addEventListener("click", sendMail);
 
-function sendMail() {
-    
+function sendMail(event) {
+    event.preventDefault();
+    let message = document.createElement("h5");
+    message.textContent = "Unable to Reach Me Currently Contact Section Not Working !!!!";
+    message.style.color = "red";
+    document.getElementById("contact-form").append(message);
 }
 
 
