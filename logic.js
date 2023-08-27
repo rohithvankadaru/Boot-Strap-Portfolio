@@ -67,6 +67,3 @@ function sendMail(event) {
     document.getElementById("contact-form").append(onSubmitText);
 }
 
-
-let Name1;
-console.log(Name1);
