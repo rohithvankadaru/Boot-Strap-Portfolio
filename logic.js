@@ -62,7 +62,7 @@ submit.addEventListener("click", sendMail);
 let onSubmitText = document.createElement("h5");
 function sendMail(event) {
     event.preventDefault();
-    onSubmitText.textContent = "Unable to Reach Me Currently Contact Section Not Working !!!!";
+    onSubmitText.textContent = "Feature Unavailable !!!!";
     onSubmitText.style.color = "red";
     document.getElementById("contact-form").append(onSubmitText);
 }
