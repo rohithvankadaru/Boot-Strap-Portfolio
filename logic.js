@@ -17,10 +17,6 @@ allBtn.addEventListener("click", () => {
 });
 
 frontendBtn.addEventListener("click", () => {
-    console.log("front end clicked");
-    allComponents.forEach(element => {
-        element.style.display = "none";
-    });
     backendComponents.forEach(element => {
         element.style.display = "none";
     });
@@ -30,10 +26,6 @@ frontendBtn.addEventListener("click", () => {
 });
 
 backendBtn.addEventListener("click", () => {
-    console.log("backend clicked");
-    allComponents.forEach(element => {
-        element.style.display = "none";
-    });
     frontendComponents.forEach(element => {
         element.style.display = "none";
     });
