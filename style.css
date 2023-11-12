@@ -39,7 +39,6 @@
     border-radius: 5px;
     margin: 15px;
     box-shadow: 5px 5px 10px #c1c2c4, -5px -5px 10px #c1c2c4;
-    transition: all ease 0.3s;
 }
 
 #skill-section #skill-container-body>div>img{
@@ -52,9 +51,6 @@
     padding-bottom: 15px;
 }
 
-#skill-section #skill-container-body>div:hover{
-    transform: scale(1.08);
-}
 
 /* ********************************************************* */
 
@@ -73,13 +69,8 @@
 
 #project-section .card{
     box-shadow: 5px 5px 10px #c1c2c4, -5px -5px 10px #c1c2c4;
-    transition: all ease 0.3s;
+    margin-bottom: 20px;
 }
-
-#project-section .card:hover{
-    transform: scale(1.08);
-}
-
 
 @media screen and (max-width: 1200px) {
     #introLine{

@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />  <!-- bootstrap  -->
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- bootstrap  -->
 
   <link rel="stylesheet" href="style.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
   <link rel="icon" href="logos/laptop-code-solid.svg" />
 </head>
 
@@ -71,8 +72,7 @@
   </section>
 
   <section id="social" class="text-center">
-    <a href="logos/Rohith_Vankadaru 2023.pdf" target="_blank"><button
-        class="btn btn-primary btn-lg rounded-pill">
+    <a href="logos/Rohith_Vankadaru 2023.pdf" target="_blank"><button class="btn btn-primary btn-lg rounded-pill">
         Resume <i class="fa-solid fa-file"></i></button></a>
     <a href="https://www.linkedin.com/in/vankadaru-rohith-pandu-ranga-rao-5a8830259/" target="_blank"><button
         class="btn btn-primary btn-lg rounded-pill">
@@ -122,18 +122,18 @@
   <section id="skill-section">
     <h1 id="skill-container-head" class="text-center pt-4 pb-3">Skills</h1>
     <div class="d-flex justify-content-center position-relative my-4">
-      <button id="All" class="btn btn-sm btn-secondary rounded-pill mx-4" style="width: 165px">
+      <button id="All-btn" class="btn btn-sm btn-secondary rounded-pill mx-4" style="width: 165px">
         <h2 class="px-3">All</h2>
       </button>
-      <button id="Frontend" class="btn btn-sm btn-secondary rounded-pill mx-4">
+      <button id="Frontend-btn" class="btn btn-sm btn-secondary rounded-pill mx-4">
         <h2 class="px-3">Frontend</h2>
       </button>
-      <button id="Backend" class="btn btn-sm btn-secondary rounded-pill mx-4">
+      <button id="Backend-btn" class="btn btn-sm btn-secondary rounded-pill mx-4">
         <h2 class="px-3">Backend</h2>
       </button>
     </div>
     <div id="skill-container-body" class="d-flex align-items-center justify-content-center flex-wrap">
-      <div class="All">
+      <div class="Backend">
         <img id="logo-DSA" src="logos/DSA_Logo.png" alt="" />
         <h5 class="text-center">Data Structrues and Algorithms</h5>
       </div>
@@ -157,6 +157,10 @@
         <img id="logo-JPA" src="logos/hibernate-icon.svg" alt="" />
         <h5>Hibernate / JPA</h5>
       </div>
+      <div class="Backend">
+        <img id="logo-JPA" src="logos/mysql.png" alt="" />
+        <h5>MySql</h5>
+      </div>
       <div class="Frontend">
         <img id="logo-html" src="logos/icons8-html-logo-480.png" alt="" />
         <h5>HTML</h5>
@@ -178,6 +182,10 @@
         <img id="logo-js" src="logos/react.png" alt="" />
         <h5>React JS</h5>
       </div>
+      <div class="Frontend">
+        <img id="logo-js" src="logos/redux.svg" alt="" />
+        <h5>Redux</h5>
+      </div>
     </div>
   </section>
 
@@ -190,6 +198,9 @@
             <img src="logos/e-commerce-photo.png" class="card-img-top" alt="e-commerce-image" />
             <div class="card-body">
               <h5 class="card-title">E-Commerce</h5>
+              <h6 class="card-text">
+                Tech stack: Spring Boot, JPA/Hibernate, mysql
+              </h6>
               <p class="card-text">
                 Revolutionize online retail experiences with our Spring
                 Boot-powered ecommerce backend. Unleash seamless product
@@ -207,6 +218,9 @@
             <img src="logos/Library.jpg" class="card-img-top" alt="e-commerce-image" />
             <div class="card-body">
               <h5 class="card-title">Library Management</h5>
+              <h6 class="card-text">
+                Tech stack: Spring Boot, JPA/Hibernate, mysql
+              </h6>
               <p class="card-text">
                 Empowering efficient library operations with a robust backend
                 built on Springboard framework. Seamlessly manage resources,
@@ -224,14 +238,54 @@
             <img src="logos/zomato-blinkit...avif" class="card-img-top" alt="BlinkIt-image" />
             <div class="card-body">
               <h5 class="card-title">BlinkIt Clone</h5>
+              <h6>
+                Tech stack: HTML, CSS, Bootstrap
+              </h6>
               <p class="card-text">
                 Experience the allure of our 'Blinking Clone' static webpage
                 project. Crafted with HTML, CSS, and Bootstrap, it delivers
                 captivating visuals and dynamic effects that leave a lasting
                 impression.
               </p>
-              <a href="https://rohithvankadaru.github.io/Blinkit-clone/" class="btn btn-primary"
-                target="_blank">Deployed-Link
+              <a href="https://rohithvankadaru.github.io/Blinkit-clone/" class="btn btn-primary" target="_blank">Open
+                <i class="fa-solid fa-arrow-up-right-from-square fa-sm" style="color: white"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+          <div class="card">
+            <img src="https://i.pinimg.com/originals/92/99/70/92997064f7c7c631b04b204f2c39f4e7.jpg" class="card-img-top"
+              alt="e-commerce-image" />
+            <div class="card-body">
+              <h5 class="card-title">Financely</h5>
+              <h6>
+                Tech stack: React.js, Firebase
+              </h6>
+              <p class="card-text">
+                Manages users finances, user can track all his expences, saving and income.
+              </p>
+              <a href="https://github.com/rohithvankadaru/e_commerce?search=1" class="btn btn-primary"
+                target="_blank">Open
+                <i class="fa-solid fa-arrow-up-right-from-square fa-sm" style="color: white"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+          <div class="card">
+            <img
+              src="https://play-lh.googleusercontent.com/uE-rLPFKIsgq4LWhHBOtkvHimgP8v-nKuqMsEZ4QRr4KZLUkJdJpXi5zx09s1YnsHw"
+              class="card-img-top" alt="BlinkIt-image" />
+            <div class="card-body">
+              <h5 class="card-title">Typing Speed app</h5>
+              <h6 class="card-text">
+                Tech stack: React.js, Context API
+              </h6>
+              <p class="card-text">
+                Test your typing speed, with different words and type in different time intervals
+              </p>
+              <a href="https://rohithvankadaru.github.io/typing-speed-app/" class="btn btn-primary" target="_blank">Open
                 <i class="fa-solid fa-arrow-up-right-from-square fa-sm" style="color: white"></i></a>
             </div>
           </div>

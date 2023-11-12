@@ -1,18 +1,14 @@
 
-
-
-////////////////////////////////////////////////////////////////////////////////////
-
-let allBtn = document.querySelector("#All");
-let frontendBtn = document.querySelector("#Frontend");
-let backendBtn = document.querySelector("#Backend");
+let allBtn = document.querySelector("#All-btn");
+let frontendBtn = document.querySelector("#Frontend-btn");
+let backendBtn = document.querySelector("#Backend-btn");
 
 let allComponents = document.querySelectorAll(".All");
 let frontendComponents = document.querySelectorAll(".Frontend");
 let backendComponents = document.querySelectorAll(".Backend");
 
 
-allBtn.addEventListener("click", ()=>{
+allBtn.addEventListener("click", () => {
     allComponents.forEach(element => {
         element.style.display = "flex";
     });
@@ -24,7 +20,8 @@ allBtn.addEventListener("click", ()=>{
     });
 });
 
-frontendBtn.addEventListener("click", ()=>{
+frontendBtn.addEventListener("click", () => {
+    console.log("front end clicked");
     allComponents.forEach(element => {
         element.style.display = "none";
     });
@@ -36,7 +33,8 @@ frontendBtn.addEventListener("click", ()=>{
     });
 });
 
-backendBtn.addEventListener("click", ()=>{
+backendBtn.addEventListener("click", () => {
+    console.log("backend clicked");
     allComponents.forEach(element => {
         element.style.display = "none";
     });
@@ -52,18 +50,24 @@ backendBtn.addEventListener("click", ()=>{
 let submit = document.getElementById("submit");
 let Name = document.getElementById("Name");
 let phNumber = document.getElementById("Phone Number");
-let EMail = document.getElementById("E-mail");
+let eMail = document.getElementById("E-mail");
 let message = document.getElementById("message");
 
 
 submit.addEventListener("click", sendMail);
 
+const data = {
+    Name,
+    phNumber,
+    eMail,
+    message
+}
 
-let onSubmitText = document.createElement("h5");
-function sendMail(event) {
+async function sendMail(event) {
     event.preventDefault();
-    onSubmitText.textContent = "Feature Unavailable !!!!";
-    onSubmitText.style.color = "red";
-    document.getElementById("contact-form").append(onSubmitText);
+    try {
+        await axios.post()
+    }
+    catch (error) { }
 }
 
