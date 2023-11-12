@@ -3,15 +3,11 @@ let allBtn = document.querySelector("#All-btn");
 let frontendBtn = document.querySelector("#Frontend-btn");
 let backendBtn = document.querySelector("#Backend-btn");
 
-let allComponents = document.querySelectorAll(".All");
 let frontendComponents = document.querySelectorAll(".Frontend");
 let backendComponents = document.querySelectorAll(".Backend");
 
 
 allBtn.addEventListener("click", () => {
-    allComponents.forEach(element => {
-        element.style.display = "flex";
-    });
     backendComponents.forEach(element => {
         element.style.display = "flex";
     });
