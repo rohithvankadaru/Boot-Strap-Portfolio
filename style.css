@@ -63,8 +63,8 @@
     width: 55%;
 }
 #project-section img{
-    width: 28w;
-    height: 28vh;
+    width: 20w;
+    max-height: 35vh;
 }
 
 #project-section .card{
