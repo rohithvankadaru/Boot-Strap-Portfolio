@@ -28,6 +28,8 @@
 #skill-section{
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin-inline: auto;
+    width: 900px;
 }
 #skill-section #skill-container-body>div{
     display: flex;
